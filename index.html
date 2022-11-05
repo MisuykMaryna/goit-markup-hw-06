@@ -1,5 +1,5 @@
 <!DOCTYPE html>
- <html lang="uk">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -233,7 +233,7 @@
                     </a>
                 </li>
                 <li class="section-item">
-                    <a href="#"class="icon-smart"><svg width="106" height="60">
+                    <a href="#" class="icon-smart"><svg width="106" height="60">
                             <use href="./images/icons.svg#icon-Logo-1"></use>
                         </svg>
                     </a>
@@ -314,13 +314,13 @@
                 <label for="email-name" class="footer-label"></label>
                 <input class="footer-input" id="email-name" type="email" 
                 name="email-name" placeholder="E-mail"/>
-            </form>
             <button type="submit" class="footer-button">Підписатися
                 <svg width="24" height="24" class="footer-icon">
         <use href="./images/icons.svg#icon-telegram-1"></use>
     </svg>
             </button>
         </div>
+    </form>
         </div>
         </div>
     </footer>
@@ -342,14 +342,14 @@
                 </div>
                 <label class="form-label" for="person-phone">Телефон</label>
                 <div class="form-control">
-                    <input class="form-input" id="person-phone" type="tel" name="person-phone" />
+                    <input class="form-input" id="person-phone" type="tel" name="person-phone"/>
                     <svg width="12" height="12" class="form-icon">
                         <use href="./images/icons.svg#icon-phone-1"></use>
                     </svg>
                 </div>
                 <label class="form-label" for="person-mail">Пошта</label>
                 <div class="form-control">
-                    <input class="form-input" id="person-mail" type="text" name="person-mail" />
+                    <input class="form-input" id="person-mail" type="text" name="person-mail"/>
                     <svg width="12" height="12" class="form-icon">
                         <use href="./images/icons.svg#icon-email-1"></use>
                     </svg>
@@ -357,13 +357,18 @@
                 <label class="form-label" for="person-comment">Коментар</label>
                 <textarea class="form-textarea" id="person-comment" name="person-comment"
                  placeholder="Введіть текст"></textarea>
-
-                 <input class="checkbox-input visually-hidden " id="terms-checkbox" 
-                 type="checkbox" name="terms-checkbox"/>
-                 <label class="checkbox-label" for="terms-checkbox">Погоджуюся з розсилкою та приймаю
+                 <div class="checkbox-field">
+                    <input class="checkbox-input visually-hidden" id="checkbox" 
+                    type="checkbox" name="terms-checkbox"/>
+                    <div class="checkbox-control">
+                    <svg width="16" height="15" class="checkbox-icon">
+                        <use href="./images/icons.svg#icon-right-1"></use>
+                    </svg></div>
+                    <label class="checkbox-label" for="checkbox">Погоджуюся з розсилкою та приймаю
                     <a href="#">Умови договору</a></label>
+                 </div>
+                    <button class="modal-button" type="submit">Відправити</button>
             </form>
-            <button class="modal-button" type="submit">Відправити</button>
         </div>
     </div>
 

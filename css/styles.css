@@ -825,7 +825,7 @@ padding-bottom: 15px;
         height: 15px;
         border-radius: 2px;
         background-image: url("../images/icons.svg#icon-right-1");
-        background: red;
+        /* background: red; */
         /* background-color: #2196F3; */
         border: 0.2px solid #FFFFFF;
         opacity: 0;
